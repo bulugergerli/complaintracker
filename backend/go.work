@@ -1,0 +1,9 @@
+go 1.22.0
+
+use (
+	./utils
+	./lambda_functions/user_function
+	./lambda_functions/role_function
+	./lambda_functions/location_function
+	./lambda_functions/complaint_function
+)
